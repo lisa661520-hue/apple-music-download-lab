@@ -420,3 +420,10 @@ Apple Music 请求失败：
 ## 许可证
 
 本项目仅供学习和研究使用，不得用于商业用途。
+
+### 推广
+NiubiStar 新活动上线：
+
+项目入驻 NiubiStar，即刻获取 30 颗冷启动加速 Star。
+
+活动页： https://niubistar.com/free-20-stars

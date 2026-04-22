@@ -1,0 +1,32 @@
+Non-Commercial Research Use License
+
+Copyright (c) 2026 Xiong
+
+Permission is granted to use, copy, modify, and study this software solely for
+personal, educational, and non-commercial research purposes, subject to the
+conditions below.
+
+You may not use this software, or any modified version of it, for commercial
+purposes. Commercial purposes include, but are not limited to, selling access,
+offering paid services, monetizing downloads, advertising-supported operation,
+or using the software to support a commercial product or service.
+
+You may not use this software to infringe copyrights, bypass paid access,
+violate Apple Music terms, violate Cloudflare terms, or violate any applicable
+law or regulation. You are solely responsible for how you use this software and
+for obtaining all required rights, accounts, credentials, cookies, and
+permissions.
+
+No Apple Music cookies, Cloudflare secrets, Turnstile secret keys, private keys,
+tokens, passwords, or other credentials are licensed for distribution with this
+software. Any example values included in the repository are placeholders only.
+
+If you distribute a copy or modified copy of this software, you must include this
+license file and preserve the non-commercial and research-only restrictions.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

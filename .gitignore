@@ -1,0 +1,56 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Apple Music cookies and generated runtime files
+backend/apple-music.txt
+backend/temp/
+backend/downloads/
+backend/*.log
+backend/cleanup.log
+
+# Node and Cloudflare Wrangler
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.wrangler/
+dist/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

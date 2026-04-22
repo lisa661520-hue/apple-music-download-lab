@@ -1,0 +1,22 @@
+# Apple Music API scheduled task config
+# 
+# Run the cleanup script every day at 03:00 Asia/Shanghai time
+# 
+# Installation:
+# 1. Ensure the script is executable: chmod +x /path/to/cleanup.sh
+# 2. Edit crontab: crontab -e
+# 3. Add the following line, replacing the path with your deployment path:
+#
+# 0 3 * * * /path/to/backend/cleanup.sh
+#
+# Notes:
+# - Ensure the system timezone is set to Asia/Shanghai
+# - Check timezone: timedatectl
+# - Set timezone: sudo timedatectl set-timezone Asia/Shanghai
+
+# Example config, update the path for your deployment
+0 3 * * * /opt/apple-music/backend/cleanup.sh
+
+# You can also execute it with an absolute bash path
+# 0 3 * * * /bin/bash /opt/apple-music/backend/cleanup.sh
+

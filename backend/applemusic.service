@@ -1,0 +1,58 @@
+[Unit]
+Description=Apple Music API Service
+After=network.target
+
+[Service]
+Type=simple
+User=appuser
+WorkingDirectory=/opt/apple-music/backend
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+ExecStart=/opt/apple-music/backend/venv/bin/python -m uvicorn main:app --host 0.0.0.0 --port 8000
+
+# Restart policy
+Restart=always
+RestartSec=10
+
+# Standard output and error logs
+StandardOutput=append:/var/log/applemusic-api.log
+StandardError=append:/var/log/applemusic-api-error.log
+
+# Process limits
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
+
+# Installation notes:
+# 
+# 1. Update paths in this file for your deployment
+#    - User: service runtime user
+#    - WorkingDirectory: backend source directory
+#    - ExecStart: full path to Python and uvicorn
+# 
+# 2. Copy this file to the systemd directory:
+#    sudo cp applemusic.service /etc/systemd/system/
+# 
+# 3. Reload systemd:
+#    sudo systemctl daemon-reload
+# 
+# 4. Enable the service at boot:
+#    sudo systemctl enable applemusic.service
+# 
+# 5. Start the service:
+#    sudo systemctl start applemusic.service
+# 
+# 6. Check service status:
+#    sudo systemctl status applemusic.service
+# 
+# 7. View service logs:
+#    sudo journalctl -u applemusic.service -f
+#    Or view the log file:
+#    tail -f /var/log/applemusic-api.log
+# 
+# 8. Stop the service:
+#    sudo systemctl stop applemusic.service
+# 
+# 9. Restart the service:
+#    sudo systemctl restart applemusic.service
+
